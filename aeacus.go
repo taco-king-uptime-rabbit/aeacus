@@ -169,7 +169,8 @@ func releaseImage() {
 	genReadMe()
 	writeDesktopFiles()
 	configureAutologin()
-	installFont()
+	// Let's disable this POS for now
+	// installFont()
 	installService()
 	confirm("Everything is done except cleanup. Are you sure you want to continue, and remove your scoring configuration and other aeacus files?")
 	cleanUp()
